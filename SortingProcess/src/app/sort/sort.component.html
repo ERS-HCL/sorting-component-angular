@@ -1,0 +1,106 @@
+<div class="container border border-secondary">
+<div class="bg-info text-center">
+<p><strong>Click the headers to sort the table.</strong></p>
+<p>The first time you click, the sorting direction is ascending </p>
+<p>Click again, and the sorting direction will be descending </p>
+ </div>
+
+<table id="myTable" class="table table-bordered">
+
+  <tr class="bg-secondary text-white">
+
+    <th (click)="sortData($event,'myTable')">Name</th>
+
+    <th (click)="sortData($event,'myTable')">Country</th>
+
+    <th (click)="sortData($event,'myTable')">stat</th>
+
+   
+
+  </tr>
+
+  <tr>
+
+    <td>27</td>
+
+    <td>Sweden</td>
+
+    <td>app</td>
+
+  </tr>
+
+    <tr>
+
+    <td>100</td>
+
+    <td>Germany</td>
+
+    <td>bat</td>
+
+  </tr>
+
+  <tr>
+
+    <td>120</td>
+
+    <td>Italy</td>
+
+    <td>ite</td>
+
+  </tr>
+
+  <tr>
+
+    <td>200</td>
+
+    <td>France</td>
+
+    <td>cot</td>
+
+  </tr>
+
+  <tr>
+
+    <td>50</td>
+
+    <td>UK</td>
+
+    <td>usf</td>
+
+  </tr>
+
+  <tr>
+
+    <td>150</td>
+
+    <td>Canada</td>
+
+    <td>zeee</td>
+
+  </tr>
+
+</table>
+
+
+
+<p class="bg-info  text-center">Click the sort list button to sort the list </p>
+
+<button (click)="sortData($event,'myList')" class="text-primary">sort list</button>
+
+<ul id="myList">
+
+  <li>Osla</li>
+
+  <li>Stockholm</li>
+
+  <li>Helsinki</li>
+
+  <li>Berlin</li>
+
+  <li>Rome</li>
+
+  <li>Madrid</li>
+
+</ul> 
+
+</div>
