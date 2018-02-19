@@ -24,17 +24,17 @@ export class SortComponent implements OnInit {
       switching = false;
   
         if(tagName=="TABLE")
-           rows = dom.getElementsByTagName("TR");
+           rows = dom.querySelectorAll("TR");
         if(tagName=="UL"||tagName=="OL")
-           rows = dom.getElementsByTagName("LI");
+           rows = dom.querySelectorAll("LI");
   
   
      for (i = 1; i < (rows.length - 1); i++) {
         shouldSwitch = false;
   
        if(tagName=="TABLE"){
-           x = rows[i].getElementsByTagName("TD")[n.target.cellIndex].firstChild.data;
-           y = rows[i + 1].getElementsByTagName("TD")[n.target.cellIndex].firstChild.data;
+           x = rows[i].querySelectorAll("TD")[n.target.cellIndex].firstChild.data;
+           y = rows[i + 1].querySelectorAll("TD")[n.target.cellIndex].firstChild.data;
   
         }
         if(tagName=="UL"||tagName=="OL"){
