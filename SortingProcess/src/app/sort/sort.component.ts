@@ -12,7 +12,7 @@ export class SortComponent implements OnInit {
   ngOnInit() {
   }
 
-  sortData(n,ID) {
+  private sortData(n:String,ID:String) {
 
     let dom,tagName, rows, switching, i,j, x, y, shouldSwitch, dir, switchcount = 0;
     dom = ID;
