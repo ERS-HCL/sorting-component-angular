@@ -5,15 +5,15 @@
 <p>Click again, and the sorting direction will be descending </p>
  </div>
 
-<table id="myTable" class="table table-bordered">
+<table id="myTable" #myTable class="table table-bordered">
 
   <tr class="bg-secondary text-white">
 
-    <th (click)="sortData($event,'myTable')">Name</th>
+    <th (click)="sortData($event,myTable)">Name</th>
 
-    <th (click)="sortData($event,'myTable')">Country</th>
+    <th (click)="sortData($event,myTable)">Country</th>
 
-    <th (click)="sortData($event,'myTable')">stat</th>
+    <th (click)="sortData($event,myTable)">stat</th>
 
    
 
@@ -85,9 +85,9 @@
 
 <p class="bg-info  text-center">Click the sort list button to sort the list </p>
 
-<button (click)="sortData($event,'myList')" class="text-primary">sort list</button>
+<button (click)="sortData($event,myList)" class="text-primary">sort list</button>
 
-<ul id="myList">
+<ul id="myList" #myList>
 
   <li>Osla</li>
 
