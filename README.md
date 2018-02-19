@@ -1,22 +1,25 @@
 # Sorting Table And List With Angular and BootStrap
-Sorting component is a simple component used to sort tables and list which was designed in angular and bootstrap.
+Sorting component is a simple component used to sort tables and list which is designed in angular and bootstrap.
 <p><img src="/image/normal.png"></p> 
 
 ## Sorting Table
-If you want to sort your table ,you have to add this function "sortData(n,ID)" to your table column header based 
-on which column you want to sort,where "n" is Event and "ID" is table id.
+I have a function which will sort table data based on column headers.
+
+sortData(n,ID)--This method will take two arguments,One is 'n'--event which is called,'ID'--is the table id which you want to sort.
+
 
 If you click for the first time on column header,it will sort in ascending order.
 <p><img src="/image/ascending.png"></p>
+
 If you click for the second time on column header,it will sort in descending order.
 <p><img src="/image/descending.png"></p>
 
 ## Sorting List
-If you want to sort your orderedLists or UnorderedLists,create a button and add function "sortData(n,ID)" to your button,
-where "n" is Event and "ID" is list id.
+This same method also have logic to sort any type of lists(ordered or unordered).
 
 If you click for the first time on button,it will sort in ascending order.
 <p><img src="/image/listasc.png"></p> 
+
 If you click for the second time on button,it will sort in descending order.
 <p><img src="/image/listdesc.png"></p> 
 
