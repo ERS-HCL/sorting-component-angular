@@ -14,9 +14,9 @@ export class SortComponent implements OnInit {
 
   sortData(n,ID) {
 
-    var dom,tagName, rows, switching, i,j, x, y, shouldSwitch, dir, switchcount = 0;
-    dom = document.getElementById(ID);
-    tagName = document.getElementById(ID).tagName;
+    let dom,tagName, rows, switching, i,j, x, y, shouldSwitch, dir, switchcount = 0;
+    dom = ID;
+    tagName = dom.tagName;
     switching = true;
     dir = "asc";
   
