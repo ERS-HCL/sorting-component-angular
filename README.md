@@ -2,6 +2,8 @@
 Sorting component is a simple component used to sort tables and list which is designed in angular and bootstrap.
 <p><img src="/image/normal.png"></p> 
 
+To preview demo of Sorting Project <a href="https://stackblitz.com/edit/angular-gz7rym-rcdfh6?embed=1&file=src/app/app.component.html&hideNavigation=1&view=preview">Click here</a>
+
 ## Sorting Table
 I have a function which will sort table data based on column headers.
 
@@ -35,7 +37,6 @@ Download the src folder and install the required packages and run the applicatio
 > ng serve
 ``` 
 
-## Test link
-To preview demo of Sorting Project <a href="https://stackblitz.com/edit/angular-gz7rym-rcdfh6?embed=1&file=src/app/app.component.html&hideNavigation=1&view=preview">Click here</a>
+
 
 
