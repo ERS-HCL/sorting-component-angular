@@ -39,6 +39,6 @@ Download the src folder and install the required packages and run the applicatio
 ``` 
 
 ## Test link
-https://stackblitz.com/edit/angular-gz7rym-rcdfh6?file=src%2Fapp%2Fsort%2Fsort.component.ts
+To preview demo of Sorting Project <a href="https://stackblitz.com/edit/angular-gz7rym-rcdfh6?embed=1&file=src/app/app.component.html&hideNavigation=1&view=preview">Click here</a>
 
 
