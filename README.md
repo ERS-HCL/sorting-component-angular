@@ -9,19 +9,16 @@ sortData(n,ID)--This method will take two arguments,One is 'n'--event which is c
 
 
 If you click for the first time on column header,it will sort in ascending order.
-<p><img src="/image/ascending.png"></p>
 
 If you click for the second time on column header,it will sort in descending order.
-<p><img src="/image/descending.png"></p>
 
 ## Sorting List
 This same method also have logic to sort any type of lists(ordered or unordered).
 
 If you click for the first time on button,it will sort in ascending order.
-<p><img src="/image/listasc.png"></p> 
 
 If you click for the second time on button,it will sort in descending order.
-<p><img src="/image/listdesc.png"></p> 
+
 
 ## Using the complete angular project
 Download the src folder and install the required packages and run the application.
